@@ -1,0 +1,25 @@
+// _footer.scss
+.footer {
+  @include flex-row;
+  background-color: $primary-bg;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  opacity: 1;
+  @include line;
+  height: 44px;
+
+  .footer__icon {
+    width: 22.5px;
+    height: 20px;
+  }
+}
+
+// Media Queries for Responsiveness
+@media (max-width: 600px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}

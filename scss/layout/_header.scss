@@ -1,0 +1,28 @@
+// _header.scss
+.header {
+  padding-top: 10px;
+  padding-inline: 20px;
+  padding-bottom: 5px;
+  @include flex-row;
+  @include space-between;
+
+  img.logo {
+    width: 30px;
+  }
+
+  .logo__container {
+    position: relative;
+
+    img.notification-round {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      top: 2px;
+      right: 0;
+    }
+  }
+}
+
+.logo--round {
+    border-radius: 32px;
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Mobile TailwindCss</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="font-sans">
+  <header class="flex justify-between items-center px-5 pt-2 pb-1 shadow-line">
+    <div class="relative">
+      <img class="w-8 h-8 rounded-full" src="./src/images/header/round.png" alt="Round">
+      <img class="absolute w-1.5 h-1.5 top-0.5 right-0" src="./src/images/header/notification-round.svg" alt="Notification Round">
+    </div>
+    <img class="w-7" src="./src/images/header/twitter-logo.svg" alt="Twitter Logo">
+    <img class="w-7" src="./src/images/header/feature-stroke-icon.svg" alt="Feature stroke icon">
+  </header>
+
+  <main class="flex-grow relative">
+    <img class="fixed bottom-14 right-3.5" src="./src/images/add-text-button.svg">
+    
+    <div class="pt-3 pl-5 shadow-line">
+      <div class="flex pl-10">
+        <img src="./src/images/home/heart-solid-icon.svg">
+        <span class="text-small text-color-darken pl-2">Kieron Dotson and Zack John liked</span>
+      </div>
+      <div class="flex pt-1 pb-2.5">
+        <div class="relative">
+          <img class="w-14 h-14 rounded-full object-cover" src="./src/images/home/profil-1.png">
+          <div class="absolute top-14 -bottom-1 left-1/2 w-[2px] bg-secondary-separator"></div>
+        </div>
+        <div class="pl-2.5 w-full">
+          <div class="flex justify-between text-medium -tracking-[0.3px]">
+            <div class="text-medium">
+              <span class="font-semibold">Martha Craig&nbsp;</span>
+              <span class="text-color-darken">@craig_love ·12h</span>
+            </div>
+            <img class="mr-6" src="./src/images/home/down-arrow-icon.svg">
+          </div>
+          <div class="text-medium leading-[20.5px] -tracking-[0.3px] mr-7 pb-2.5">
+            <span>UXR/UX: You can only bring one item to a remote island to assist your research of native use of tools and usability. What do you bring?</span>
+            <span class="text-primary-color">#TellMeAboutYou</span>
+          </div>
+          <div class="flex justify-between mr-16">
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/comment-stroke-icon.svg">
+              <span>28</span>
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/retweet-stroke-icon.svg">
+              <span>5</span>  
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/heart-stroke-icon.svg">
+              <span>21</span>
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4" src="./src/images/home/share-stroke-icon.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="flex mt-[-2px] pb-1">
+        <img class="w-9 h-9 rounded-full mx-2.5" src="./src/images/home/profil-1.png">
+        <span class="text-medium text-primary-color -tracking-[0.3px] self-center">Show this thread</span>
+      </div>
+    </div>
+
+    <div class="pt-3 pl-5 shadow-line">
+      <div class="flex pl-10">
+        <img src="./src/images/home/heart-solid-icon.svg">
+        <span class="text-small text-color-darken pl-2">Zack John liked</span>
+      </div>
+      <div class="flex pt-1 pb-2.5">
+        <div class="relative">
+          <img class="w-14 h-14 rounded-full object-cover" src="./src/images/home/profil-2.png">
+        </div>
+        <div class="pl-2.5 w-full">
+          <div class="flex justify-between text-medium -tracking-[0.3px]">
+            <div class="text-medium">
+              <span class="font-semibold">Maximmilian&nbsp;</span>
+              <span class="text-color-darken">@maxjacobson ·3h</span>
+            </div>
+            <img class="mr-6" src="./src/images/home/down-arrow-icon.svg">
+          </div>
+          <div class="text-medium leading-[20.5px] -tracking-[0.3px] mr-7 pb-2.5">
+            <span>Y’all ready for this next post?</span>
+          </div>
+          <div class="flex justify-between mr-16">
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/comment-stroke-icon.svg">
+              <span>46</span>
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/retweet-stroke-icon.svg">
+              <span>18</span>  
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/heart-stroke-icon.svg">
+              <span>363</span>
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4" src="./src/images/home/share-stroke-icon.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-3 pl-5 shadow-line">
+      <div class="flex pl-10">
+        <img src="./src/images/home/heart-solid-icon.svg">
+        <span class="text-small text-color-darken pl-2">Kieron Dotson Retweeted</span>
+      </div>
+      <div class="flex pt-1 pb-2.5">
+        <div class="relative">
+          <img class="w-14 h-14 rounded-full object-cover" src="./src/images/home/profil-3.png">
+        </div>
+        <div class="pl-2.5 w-full">
+          <div class="flex justify-between text-medium -tracking-[0.3px]">
+            <div class="flex text-medium">
+              <span class="font-semibold">Tabitha Potter&nbsp;</span>
+              <img class="object-contain w-4 mx-0.5" src="./src/images/home/tick-icon.png">
+              <span class="text-color-darken">@mis_potter ·14h</span>
+            </div>
+            <img class="mr-6" src="./src/images/home/down-arrow-icon.svg">
+          </div>
+          <div class="text-medium leading-[20.5px] -tracking-[0.3px] mr-7 pb-2.5">
+            <span>
+              Kobe’s passing is really sticking w/ me in a way I didn’t expect.<br><br>
+              He was an icon, the kind of person who wouldn’t die this way. My wife compared it to Princess Di’s accident.<br><br>
+              But the end can happen for anyone at any time, & I can’t help but think of anything else lately.
+            </span>
+          </div>
+          <div class="flex justify-between mr-16">
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/comment-stroke-icon.svg">
+              <span>7</span>
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/retweet-stroke-icon.svg">
+              <span>1</span>  
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/heart-stroke-icon.svg">
+              <span>11</span>
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4" src="./src/images/home/share-stroke-icon.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-3 pl-5 shadow-line">
+      <div class="flex pl-10">
+        <img src="./src/images/home/heart-solid-icon.svg">
+        <span class="text-small text-color-darken pl-2">Zack John liked</span>
+      </div>
+      <div class="flex pt-1 pb-2.5">
+        <div class="relative">
+          <img class="w-14 h-14 rounded-full object-cover" src="./src/images/home/profil-4.png">
+        </div>
+        <div class="pl-2.5 w-full">
+          <div class="flex justify-between text-medium -tracking-[0.3px]">
+            <div class="text-medium">
+              <span class="font-semibold">karennne&nbsp;</span>
+              <span class="text-color-darken">@karennne ·10h</span>
+            </div>
+            <img class="mr-6" src="./src/images/home/down-arrow-icon.svg">
+          </div>
+          <div class="text-medium leading-[20.5px] -tracking-[0.3px] mr-7 pb-2.5">
+            <span>Name a show where the lead character is the worst character on the show I’ll get Sabrina Spellman</span>
+          </div>
+          <div class="flex justify-between mr-16">
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/comment-stroke-icon.svg">
+              <span>1906</span>
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/retweet-stroke-icon.svg">
+              <span>1294</span>  
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4 mr-1.5" src="./src/images/home/heart-stroke-icon.svg">
+              <span>7461</span>
+            </div>
+            <div class="flex text-color-darken text-x_small">
+              <img class="w-4" src="./src/images/home/share-stroke-icon.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="flex flex-row justify-around items-center bg-primary px-5 py-2 opacity-100 h-11 fixed bottom-0 w-full md:static shadow-line">
+    <img class="w-5.5 h-5" src="./src/images/footer/home-solid-icon.svg" alt="Home Icon">
+    <img class="w-5.5 h-5" src="./src/images/footer/search-stroke-icon.svg" alt="Search Icon">
+    <img class="w-5.5 h-5" src="./src/images/footer/bell-stroke-icon.svg" alt="Notifications Icon">
+    <img class="w-5.5 h-5" src="./src/images/footer/mail-stroke-icon.svg" alt="Messages Icon">
+  </footer>
+</body>
+</html>
